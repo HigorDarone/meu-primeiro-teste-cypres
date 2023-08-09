@@ -8,9 +8,9 @@ describe('template spec', () => {
 
     cy.get('#txtLoginNaoLogadoMob').click()
 
-    cy.get('#login-email').type('higordarone@hotmail.com')
+    cy.get('#login-email').type('colocaremail')
 
-    cy.get('#login-password').type('hd12389')
+    cy.get('#login-password').type('colocarsenha')
 
     cy.get('#btnLoginHeader').click()
     
